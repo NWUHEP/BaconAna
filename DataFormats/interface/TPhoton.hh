@@ -23,7 +23,14 @@ namespace baconhep
 //      chHadIsoSelVtx, chHadIso03WstVtx;
       mvaSpring16(-999.), mvaFall17V1(-999.), mvaFall17V2(-999.),
       mvaSpring16Cat(-999.), mvaFall17V1Cat(-999.), mvaFall17V2Cat(-999),
-      hovere(0), sthovere(0), sieie(0), sipip(0), r9(0), r9_full5x5(0),
+
+      //hovere(0), sthovere(0), sieie(0), sipip(0), r9(0), r9_full5x5(0),
+      hovere(0), sthovere(0),
+      sieie(0), sipip(0), sieip(0), srr(0),
+      r9(0), r9_full5x5(0),
+      e2x2(0), e5x5(0), scRawE(0), scESEn(0),
+      scEtaWidth(0), scPhiWidth(0), scBrem(0),
+
       fiducialBits(0),
       typeBits(0),
       scID(-1),
@@ -52,7 +59,13 @@ namespace baconhep
       float          mvaFall17V2Cat;                       
       float          hovere;                               // H/E
       float          sthovere;                             // Single tower H/E (https://twiki.cern.ch/twiki/bin/viewauth/CMS/HoverE2012)
-      float          sieie, sipip, r9, r9_full5x5;         // shower shape
+      //float          sieie, sipip, r9, r9_full5x5;         // shower shape
+      float          sieie, sipip, sieip, srr;
+      float          r9, r9_full5x5;         // shower shape
+      float          e2x2, e5x5, scRawE, scESEn;
+      float          scEtaWidth, scPhiWidth,scBrem;
+
+
       unsigned int   fiducialBits;                         // ECAL fiducial region
       unsigned int   typeBits;                             // photon type
       int            scID;                                 // supercluster ID (unique per event)
