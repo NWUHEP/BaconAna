@@ -74,7 +74,7 @@ namespace baconhep
       bool           isConv;                               
       TriggerObjects hltMatchBits;                         // HLT matches
           
-    ClassDef(TPhoton,5)
+    ClassDef(TPhoton,6)
   };
 
   enum EPhotonType
