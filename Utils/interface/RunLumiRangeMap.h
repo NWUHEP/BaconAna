@@ -1,6 +1,8 @@
 #ifndef _RUNLUMIRANGEMAP_H
 #define _RUNLUMIRANGEMAP_H
 
+#include <iostream>
+#include <cstdlib>
 #include <string>
 #include <vector>
 #include <map>
