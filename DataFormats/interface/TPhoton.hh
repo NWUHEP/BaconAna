@@ -50,6 +50,7 @@ namespace baconhep
       float          energySigmaPhiUp, energySigmaPhiDown;
       float          trkIso, ecalIso, hcalIso;             // detector isolation
       float          chHadIso, gammaIso, neuHadIso;        // PF isolation variables
+      float 	     phoChIso,phoNeuHadIso,phoPhIso,phoWorstChIso;
 //      float          chHadIsoSelVtx,chHadIso03WstVtx;    // Isolation from the PV vs worst vertex Iso
       float          mvaSpring16;                          // Photon MVA ID
       float          mvaFall17V1;                          // Photon MVA ID
@@ -64,7 +65,6 @@ namespace baconhep
       float          r9, r9_full5x5;         // shower shape
       float          e2x2, e5x5, scRawE, scESEn;
       float          scEtaWidth, scPhiWidth,scBrem;
-
 
       unsigned int   fiducialBits;                         // ECAL fiducial region
       unsigned int   typeBits;                             // photon type
