@@ -29,7 +29,7 @@ namespace baconhep
       nTkLayers(0), nPixLayers(0),
       nMatchStn(0),
       trkID(-1),
-      btt(-1),
+      btt(-1), 
       hltMatchBits(0)
       {}
       ~TMuon(){}
