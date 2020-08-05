@@ -10,8 +10,9 @@ namespace baconhep
   {
     public:
       TPFPart():
-	pt(0), eta(0), phi(0), m(0), e(0),
+	pt(0), eta(0), phi(0), m(0), e(0), ptErr(0),
 	q(0),pfType(-1),vtxId(-1),
+    chHadIso03(-1), gammaIso03(-1), neuHadIso03(-1),
 	trkChi2(0),pup(0),vtxChi2(0),
 	ecalE(0),hcalE(0),
 	d0(0),dz(0),time(0),depth(0),d0Err(0),
@@ -19,10 +20,11 @@ namespace baconhep
     {}
     ~TPFPart(){}
     
-    float         pt, eta, phi, m, e;  // kinematics
+    float         pt, eta, phi, m, e, ptErr;  // kinematics
     int           q;                   // charge
     int           pfType;
     int           vtxId;               // Vertex Id from Vertex Collection
+    float         chHadIso03, gammaIso03, neuHadIso03;
     float         trkChi2;             // Track Chi2
     float         pup; 
     float         vtxChi2;             // Vertex Chi2
@@ -30,7 +32,7 @@ namespace baconhep
     float         d0,dz,time,depth,d0Err; // Usefule Info
     float         dptdpt,detadeta,dphidphi,dxydxy,dzdz,dxydz,dphidxy,dlambdadz;
     //float         deltaP;              // Uncertainty on P
-    ClassDef(TPFPart,1)
+    ClassDef(TPFPart,2)
   };
 }
 #endif
