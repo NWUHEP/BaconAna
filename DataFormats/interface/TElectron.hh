@@ -97,7 +97,7 @@ namespace baconhep
       int            trkID;                                    // track ID number (unique per event)
       TriggerObjects hltMatchBits;                             // HLT matches
       
-    ClassDef(TElectron,7)
+    ClassDef(TElectron,8)
   };
 
   enum EEleType
