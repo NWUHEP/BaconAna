@@ -109,6 +109,8 @@ HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v*                              hltEle
 HLT_DoubleMu20_7_Mass0to30_Photon23_v*                                    hltEG23HEFilter                                                                   1
 HLT_Mu17_Photon30_IsoCaloId_v*                                            hltMu17Photon30IsoCaloIdMuonlegL3Filtered17Q                                      1
 HLT_Mu17_Photon30_IsoCaloId_v*                                            hltMu17Photon30IsoCaloIdPhotonlegTrackIsoFilter                                   2
+HLT_Mu17_Photon30_CaloIdL_L1Iso_v*                                        hltMu17Photon30CaloIdLMuonlegL3Filtered17Q                                        1
+HLT_Mu17_Photon30_CaloIdL_L1Iso_v*                                        hltMu17Photon30CalIdLPhotonlegTrackIsoFilter                                      2
 HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v*                                  hltEle24Ele22WPLooseGsfleg1TrackIsoFilter                                         1
 HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v*                                  hltEle24Ele22WPLooseGsfleg2TrackIsoFilter                                         2
 HLT_Ele8_CaloIdL_TrackIdL_IsoVL_PFJet30_v*                                hltEle8CaloIdLTrackIdLIsoVLTrackIsoFilter                                         1
